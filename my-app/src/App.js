@@ -7,8 +7,6 @@ import Movies from './Pages/Movies';
 import MovieDetail from './Pages/MovieDetail';
 import About from './Pages/About';
 import NotFound from './Pages/NotFound';
-import MovieCard from './MovieCard';
-import MovieGallery from './MovieGallery';
 
 function App() {
   return (
