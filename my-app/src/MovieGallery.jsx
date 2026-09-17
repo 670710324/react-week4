@@ -28,6 +28,11 @@ function MovieGallery() {
         เรื่องถัดไป
       </button>
 
+      {movie.poster && (
+        <img src={movie.poster} alt={`โปสเตอร์ ${movie.title}`}
+             className="mt-4 w-40 rounded-xl shadow" />
+      )}
+
       <h2 className="mt-4 text-2xl font-bold text-slate-800">
         {movie.title} <span className="text-slate-400">({movie.year})</span>
       </h2>
