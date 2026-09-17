@@ -1,5 +1,4 @@
-import MovieGallery from '../MovieGallery';
-
+import MovieGallery from '../Component/MovieGallery';
 function Home() {
   return (
     <div className="p-8 text-center">
